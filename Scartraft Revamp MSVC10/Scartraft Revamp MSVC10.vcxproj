@@ -69,6 +69,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repositories\scartraft\Scartraft Revamp MSVC10\Libraries;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -111,6 +112,7 @@
   <ItemGroup>
     <ClInclude Include="aircraft.h" />
     <ClInclude Include="aircraftEngine.h" />
+    <ClInclude Include="allegro5\allegro_primitives.h" />
     <ClInclude Include="assaultViking.h" />
     <ClInclude Include="bitmapLoader.h" />
     <ClInclude Include="bullet.h" />

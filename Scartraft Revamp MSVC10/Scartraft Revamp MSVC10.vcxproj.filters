@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Towers">
+      <UniqueIdentifier>{b19d2b9a-b17d-42be-809b-a59e96b67482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Towers">
+      <UniqueIdentifier>{15d74fb9-0cf0-4842-8bfa-0c0f82561cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Init">
+      <UniqueIdentifier>{001d31f4-e1fb-4c8f-8440-d47dfb567fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plot &amp; Etc">
+      <UniqueIdentifier>{8cfa7276-d5ce-4ee8-8203-b9facb8589fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Init">
+      <UniqueIdentifier>{420a09bb-e12c-48de-98b2-54de46e84ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Creeps">
+      <UniqueIdentifier>{488d89ef-a6e3-4b3f-b534-18466996928e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\List">
+      <UniqueIdentifier>{02fa3913-5b31-4b58-97e6-08460a22efaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\List">
+      <UniqueIdentifier>{e719de1e-5f77-4d63-a287-14904d08e2f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plot &amp; Etc">
+      <UniqueIdentifier>{3d9e1951-571f-4dac-aed1-8cef85d35d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Creeps">
+      <UniqueIdentifier>{3dc56b09-bcf0-4e97-83a0-62e0e11e02ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Aircraft">
+      <UniqueIdentifier>{99c1b514-102a-460d-a981-70adc4bc4f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Aircraft">
+      <UniqueIdentifier>{53a0c23d-ba8c-4187-8ff1-a731025777b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Special Effects">
+      <UniqueIdentifier>{adee06bd-d92b-425b-8150-542a82403392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Special Effects">
+      <UniqueIdentifier>{c62262e3-3fba-4a51-8ec4-9efe76430e29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bunker.cpp">
+      <Filter>Source Files\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="siegetank.cpp">
+      <Filter>Source Files\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="tower.cpp">
+      <Filter>Source Files\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="towerEngine.cpp">
+      <Filter>Source Files\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="turret.cpp">
+      <Filter>Source Files\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="creep.cpp">
+      <Filter>Source Files\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="marine.cpp">
+      <Filter>Source Files\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="creepengine.cpp">
+      <Filter>Source Files\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="hydralisk.cpp">
+      <Filter>Source Files\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="colossus.cpp">
+      <Filter>Source Files\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="thor.cpp">
+      <Filter>Source Files\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="voidray.cpp">
+      <Filter>Source Files\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="zergling.cpp">
+      <Filter>Source Files\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapLoader.cpp">
+      <Filter>Source Files\Plot &amp; Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="plot.cpp">
+      <Filter>Source Files\Plot &amp; Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="clock.cpp">
+      <Filter>Source Files\Plot &amp; Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="soundLoader.cpp">
+      <Filter>Source Files\Plot &amp; Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="aircraft.cpp">
+      <Filter>Source Files\Aircraft</Filter>
+    </ClCompile>
+    <ClCompile Include="aircraftEngine.cpp">
+      <Filter>Source Files\Aircraft</Filter>
+    </ClCompile>
+    <ClCompile Include="viking.cpp">
+      <Filter>Source Files\Aircraft</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Source Files\Aircraft</Filter>
+    </ClCompile>
+    <ClCompile Include="SFX.cpp">
+      <Filter>Source Files\Special Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Source Files\Plot &amp; Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="assaultViking.cpp">
+      <Filter>Source Files\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bunker.h">
+      <Filter>Header Files\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="turret.h">
+      <Filter>Header Files\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="tower.h">
+      <Filter>Header Files\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="siegetank.h">
+      <Filter>Header Files\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="towerEngine.h">
+      <Filter>Header Files\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="creep.h">
+      <Filter>Header Files\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="marine.h">
+      <Filter>Header Files\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="creepengine.h">
+      <Filter>Header Files\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure.h">
+      <Filter>Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Plot &amp; Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="hydralisk.h">
+      <Filter>Header Files\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="colossus.h">
+      <Filter>Header Files\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="voidray.h">
+      <Filter>Header Files\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="thor.h">
+      <Filter>Header Files\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="zergling.h">
+      <Filter>Header Files\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmapLoader.h">
+      <Filter>Header Files\Plot &amp; Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="init.h">
+      <Filter>Header Files\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="plot.h">
+      <Filter>Header Files\Plot &amp; Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>Header Files\Plot &amp; Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="aircraft.h">
+      <Filter>Header Files\Aircraft</Filter>
+    </ClInclude>
+    <ClInclude Include="soundLoader.h">
+      <Filter>Header Files\Plot &amp; Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="viking.h">
+      <Filter>Header Files\Aircraft</Filter>
+    </ClInclude>
+    <ClInclude Include="aircraftEngine.h">
+      <Filter>Header Files\Aircraft</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Header Files\Aircraft</Filter>
+    </ClInclude>
+    <ClInclude Include="SFX.h">
+      <Filter>Header Files\Special Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Header Files\Special Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="assaultViking.h">
+      <Filter>Header Files\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="errece.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

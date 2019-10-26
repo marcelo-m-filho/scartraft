@@ -11,6 +11,7 @@ int main()
 	}
 
 	init boot;
+	boot.start();
 	return 3;
 }
 

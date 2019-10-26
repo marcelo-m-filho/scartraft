@@ -10,7 +10,7 @@ class creepEngine;
 class init;
 class bitmapLoader
 {
-
+private:
 protected:
 	ALLEGRO_BITMAP *miniMenu;
 	ALLEGRO_BITMAP *background;
@@ -25,7 +25,7 @@ protected:
 	ALLEGRO_BITMAP *newMenuButton[2][5];
 	ALLEGRO_BITMAP *newMenuButtonViking[2][2];
 	ALLEGRO_BITMAP *explosion[33];
-	ALLEGRO_BITMAP *bullethit[9];
+	ALLEGRO_BITMAP *bulletHit[9];
 	ALLEGRO_FONT *tooltipFont;
 	ALLEGRO_BITMAP *nuke[102];
 
@@ -34,6 +34,7 @@ protected:
 
 public:
 	void Loader();
+	void loadSprite(ALLEGRO_BITMAP** container, char* path, int size);
 	void bar1Load();
 	creepEngine *pCreepEngine;
 	towerEngine *pTowerEngine;

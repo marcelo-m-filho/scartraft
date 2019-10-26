@@ -37,6 +37,7 @@ void plot::createDisplay()
     al_init_ttf_addon();
 	
 	display = al_create_display(800, 600); // creates the main window
+	al_set_window_title(display, "Scartraft 2");
 	}
 }
 

@@ -13,16 +13,9 @@ class init
 {
 private:
 	void				start();
-	void				game();
 	void				game2();
 	void				mainMenu();
-	void				gameEvent();
 
-
-//	plot				plotObj;
-//	towerEngine			towerEngineObj;
-
-	int					FPS;
 	bool				redraw;
 
 	int					refreshRate;

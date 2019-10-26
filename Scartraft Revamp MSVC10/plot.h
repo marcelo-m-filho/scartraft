@@ -17,7 +17,6 @@ class plot: public bitmapLoader, public Clock
 private:
 	ALLEGRO_FONT *font;
 	ALLEGRO_DISPLAY *display;
-	int cu;
 
 	SFX tooltipFadeIn;
 	SFX buttonSFX[5];

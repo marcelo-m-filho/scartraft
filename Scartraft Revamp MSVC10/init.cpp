@@ -3,8 +3,6 @@
 
 init::init()
 {
-	FPS									= 1.0;
-	flaisso								= al_create_timer(1.0/60.0);
 	redraw								= true;
 	refreshRate							= 60.0;
 	pPlot								= new plot;
@@ -41,7 +39,6 @@ init::init()
 	al_init_acodec_addon();
 	al_reserve_samples(10);
 	al_init_primitives_addon();
-	al_start_timer(flaisso);
 	start();
 }
 

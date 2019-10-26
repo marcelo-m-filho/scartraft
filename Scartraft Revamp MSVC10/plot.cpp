@@ -6,7 +6,6 @@
 
 plot::plot()
 {
-	cu = 0;
 	sideUI				= NULL;																								  
 	display				= NULL;
 	background			= NULL;
@@ -72,12 +71,6 @@ void plot::gameOutput()
 void plot::backgroundPlot()
 {
 		al_draw_tinted_bitmap(background,al_map_rgba_f(0.5, 0.5, 0.5, 1),0,0,NULL);
-	al_draw_tinted_bitmap(nuke[cu],al_map_rgba_f(1, 1, 1, 1),-100,-100,NULL);
-
-	cu++;
-	if (cu >=101)
-		cu = 0;
-
 }
 
 void plot::interfacePlot()

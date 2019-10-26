@@ -79,7 +79,7 @@ public:
 	Creep *creepFromList;
 	Creep *creepPointer;
 	List<Creep> creepList;
-	BITMAP *Bar[5];
+	ALLEGRO_BITMAP *Bar[5];
 	enemytype getWave();
 	int		  getLives();
 	void	  removeLives(int);

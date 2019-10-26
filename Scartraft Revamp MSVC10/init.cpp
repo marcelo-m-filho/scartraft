@@ -177,11 +177,11 @@ void init::game2()
 		else
 		{
 			if	(al_key_down(&keyboardstate,ALLEGRO_KEY_LEFT))
-				pAircraftEngine->Output(LEFT,FALSE);
+				pAircraftEngine->Output(LEFT,0);
 			else if (al_key_down(&keyboardstate,ALLEGRO_KEY_RIGHT))
-				pAircraftEngine->Output(RIGHT,FALSE);
+				pAircraftEngine->Output(RIGHT,0);
 			else 
-				pAircraftEngine->Output(STILL,FALSE);
+				pAircraftEngine->Output(STILL,0);
 		}
 
 		pCreepEngine->Output();
